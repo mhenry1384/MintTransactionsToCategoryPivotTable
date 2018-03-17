@@ -1,6 +1,8 @@
 # Takes a mint.com transactions csv and generates a category pivot table to show you your spending for the current month.
 # The advatage of using this over Mint's reports are that Mint reports don't show subcategories or allow you to filter out categories.
-# Optional parameter: -startDate 1/1/2001
+# Optional parameters: 
+# -startDate 1/1/2001
+# -file "c:\path\to\.csv"
 # Matthew Henry 3/15/2018
 param
 (
